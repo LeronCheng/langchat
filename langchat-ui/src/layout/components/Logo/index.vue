@@ -22,40 +22,41 @@
 </template>
 
 <script lang="ts">
-  import { websiteConfig } from '@/config/website.config';
+import { websiteConfig } from '@/config/website.config';
 
-  export default {
-    name: 'Index',
-    props: {
-      collapsed: {
-        type: Boolean,
-      },
+export default {
+  name: 'Index',
+  props: {
+    collapsed: {
+      type: Boolean,
     },
-    data() {
-      return {
-        websiteConfig,
-      };
-    },
-  };
+  },
+  data() {
+    return {
+      websiteConfig,
+    };
+  },
+};
 </script>
 
 <style lang="less" scoped>
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 64px;
-    line-height: 64px;
-    overflow: hidden;
-    white-space: nowrap;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  line-height: 64px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #002140;
 
-    img {
-      width: auto;
-      height: 32px;
-    }
-
-    .title {
-      margin: 0;
-    }
+  img {
+    width: auto;
+    height: 82px;
   }
+
+  .title {
+    margin: 0;
+  }
+}
 </style>

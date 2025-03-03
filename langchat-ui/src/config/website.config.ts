@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import logoImage from '@/assets/images/logo.svg';
-import loginImage from '@/assets/images/langchat.png';
+import logoImage from '@/assets/images/logo.png';
+import loginImage from '@/assets/images/logo.png';
 
 export const websiteConfig = Object.freeze({
-  title: 'LangChat',
+  // title: 'LangChat',
   logo: logoImage,
   loginImage: loginImage,
   loginDesc: '基于ChatGPT、LLM、LangChain的智能化AI平台',
